@@ -1,0 +1,20 @@
+.bottom_section{
+    flex:0.3;
+    width:100%;
+    bottom:0;
+    padding: 30px 50px;   
+    color:#414141;
+    
+}
+
+.bottom_title{
+    margin-bottom: 20px;
+
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+   
+    
+}

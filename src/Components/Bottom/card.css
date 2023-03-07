@@ -1,0 +1,29 @@
+.card{
+    min-height:400px;
+    max-height:500px;
+    width:260px;
+    border:0.5px solid lightgrey;
+    margin-bottom: 40px;;
+   
+    
+}
+.card_info{
+    padding:10px;
+    color:#414141;
+    background-color: blueviolet;
+    
+}
+.image{
+    height:200px;
+    width:100%;
+    margin:20px 0px;
+}
+h3{
+    margin:10px 0px;
+    color:#414141;
+        
+}
+
+.card_link{
+    padding:20px;
+}
