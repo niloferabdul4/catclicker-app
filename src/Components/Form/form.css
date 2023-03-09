@@ -1,0 +1,109 @@
+.rightbar_container{
+    flex:0.3;
+
+}
+
+.form{
+    height: 600px;
+    width:320px;
+    padding: 20px;
+    margin: 20px;
+    border:0.5px solid lightgrey; 
+    
+}
+.input_wrapper{
+    display:flex;
+    flex-direction: column ;
+    margin: 20px 0px;
+    gap:15px;
+
+}
+.input{
+    padding: 10px;
+    font-size: 1.1rem;
+    text-indent: 4px;
+    border-radius: 4px;
+    border:0.1px solid lightgrey;
+}
+.open_btn ,.btn{
+    background-color:  #2874f0;
+    color:white;
+    border:none;
+    padding: 12px;
+    font-size: 1.0rem;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-right: 10px;
+
+}
+
+.save{
+   
+    background-color: green;
+    
+}
+.undo{
+    background-color: orangered;
+}
+
+
+
+/***********  For mobile  ***************/
+
+@media screen and (max-width: 480px) {
+    .rightbar_container{
+        flex:0.1;
+    }
+        
+    .form{
+        height: 300px;
+        width:200px;   
+        
+    }
+
+    .input{
+    padding: 6px;
+    font-size: 0.9remrem;
+    
+    }
+    .open_btn ,.btn{  
+        font-size: 0.8rem;
+        margin-right: 0px;
+        padding:6px;
+    }
+
+  }
+  
+  
+  /***********  For tablet  ***************/
+  
+  @media screen and (max-width: 768px) {
+    .rightbar_container
+    {
+        flex:0.2;
+    }
+        
+    .form{
+        height: 400px;
+        width:180px;
+        padding: 20px;
+        margin: 0px;
+        
+        
+    }
+
+    .input{
+    padding: 4px;
+    font-size: 0.8rem;
+    
+    }
+    .open_btn ,.btn{  
+        font-size: 0.8rem;
+        margin-right: 0px;
+        padding:6px;
+
+    }
+  }
+       
+       
+    

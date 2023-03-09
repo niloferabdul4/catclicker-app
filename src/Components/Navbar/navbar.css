@@ -4,3 +4,24 @@
     border-bottom: 0.2px solid lightgrey;
     padding:20px;
 }
+
+/***********  For mobile  ***************/
+
+@media only screen and (max-width: 480px) {
+ .navbar{
+  width:100%;
+ }
+  h2{
+    font-size: 20px;
+  }
+}
+
+
+/***********  For tablet  ***************/
+
+@media only screen and (max-width: 768px) {
+    
+    h2{
+      font-size: 22px;
+    }
+  }

@@ -1,10 +1,10 @@
 import React,{useContext} from 'react';
 import Card from './Card';
-import './bottom.css';
+import './gallery.css';
 //import { AppContext } from '../../Context/AppContext';
 import { ReducerContext } from '../../Context/ReducerContext';
 
-const Bottom = () => {
+const CatGallery = () => {
 
     const {state:{cats}}=useContext(ReducerContext); 
 
@@ -19,4 +19,4 @@ const Bottom = () => {
     );
 }
 
-export default Bottom;
+export default CatGallery;

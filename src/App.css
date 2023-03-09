@@ -7,10 +7,27 @@
 }
 
 .app_body{
-display:flex;
-flex-direction: column;
-height:100%;
-width:100%;
-margin-left: 100px;
-margin-right: 100px;;
+  display:flex;
+  flex-direction: column;
+  height:100%;
+  width:100%;
+  background-color: white;
+  padding:0px 100px;
+
+}
+
+/********* For mobile  ************/
+
+@media only screen and (max-width:480px){
+  .app_body{
+   padding:2px;
+  }
+}
+
+/********* For tablet  ************/
+
+@media only screen and (max-width:7860px){
+  .app_body{
+   padding:10px;
+  }
 }

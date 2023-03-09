@@ -1,9 +1,39 @@
 .top_section{
-    flex:0.7;
     display: flex;
     flex-direction:row;
     color:#414141;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 30px 100px;   
     border-bottom: 0.4px solid lightgrey;
+   
 }
+
+/***********  For mobile  ***************/
+
+@media screen and (max-width: 480px) {
+
+    .top_section
+    {     
+       margin:30px 0px;
+       display:grid;
+       gap:10px;
+       grid-template-columns: repeat(2,1fr);
+   
+    }
+    
+  }
+  
+  
+  /***********  For tablet  ***************/
+  
+  @media screen and (max-width: 768px) {
+    .top_section{     
+        margin: 30px 0px;
+        display:grid;
+        gap:10px;
+        grid-template-columns: repeat(2,1fr);
+   
+      
+        }
+       
+      }
+      

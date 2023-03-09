@@ -1,10 +1,75 @@
 .main_container{
     flex:1;
-    margin: 60px 200px;
     padding:20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  
- 
+    justify-content: center;    
+    cursor:pointer;
 }
+
+.selected_card{
+    min-height:380px;
+    max-height:500px;
+    width:360px;
+    box-shadow: rgba(53, 48, 48, 0.15) 1.5px 1.5px 1.5px 2px;
+    border:0.2px solid lightgrey;
+    background-color: white;;
+    
+}
+.selected_card_info{
+    padding:15px;
+    color:#414141;
+}
+.selected_card_image{
+    height:250px;
+    width:100%;
+    margin:10px 0px;
+}
+.selected_card_title{
+    margin:15px 0px;
+    color:#414141;
+}
+
+.selected_card_description{
+    padding:15px;
+    word-wrap: break-word;
+    text-align: justify;
+    line-height: 30px;
+    color:#414141;
+}
+
+.selected_card_link a{
+    text-decoration: none;
+    color:  #2874f0;
+    font-size: 16px;
+    padding:5px 0px;
+}
+
+
+/***********  For mobile  ***************/
+
+@media screen and (max-width: 480px) {
+  
+.selected_card{
+    min-height:200px;
+    max-height:400px;
+    width:220px;  
+    
+}
+.selected_card_info{
+    padding:6px;
+    color:#414141;
+}
+.selected_card_image{
+    height:200px;
+    width:100%;
+    margin:5px 0px;
+}
+.selected_card_title{
+    margin:5px 0px;
+    font-size: 15px;
+   
+}
+
+  }
+  
+  

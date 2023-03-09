@@ -1,0 +1,46 @@
+.bottom_section{    
+    width:100%;
+    bottom:0;
+    color:#414141;
+    margin: 30px 100px;   
+    
+}
+
+.bottom_title{
+    margin-bottom: 30px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    
+   
+    
+}
+/********* Responsive  ***********/
+
+@media screen and (max-width: 480px) {
+    .bottom_section
+    {
+        margin:5px 0px;
+        width:100%;       
+    }
+    .gallery{
+        display:grid;        
+        grid-template-columns: repeat(2,1fr);            
+        
+    }
+}
+
+/************ For Tablets  **************/
+
+@media only screen and (max-width: 768px) {
+    .bottom_section
+    {
+        margin:5px 0px;
+        width:100%;       
+    }
+    .gallery{        
+        grid-template-columns: repeat(2,1fr); 
+    }
+}
