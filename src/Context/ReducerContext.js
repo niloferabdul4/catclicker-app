@@ -10,17 +10,16 @@ export const ReducerContext=createContext();
     
 
     /*******  SAVING AND GETTING DATA FROM LOCAL STORAGE  ********************** */
-  
-    useEffect(()=>{localStorage.setItem('cats', JSON.stringify(cats))},[cats])  
-    useEffect(()=>{
-        const data= JSON.parse(localStorage.getItem('cats')) 
-        if(cats) 
-        {
-            setCats(data)
-            
-        }
-    },[])
    
+
+    useEffect(()=>{localStorage.setItem('cats', JSON.stringify(cats))},[cats])  
+    useEffect(() => {
+        if(JSON.parse(localStorage.getItem('cats')))
+         {
+          setCats(localStorage.getItem('cats'))
+        }
+      }, []);
+    
 
     const [state,dispatch]=useReducer(reducer,{cats,  
                                                selectedCat:{ id:cats[0].id,

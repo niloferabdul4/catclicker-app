@@ -5,7 +5,7 @@ import './catlist.css';
 
 const Catlist = () => {
   const {state:{cats},dispatch}=useContext(ReducerContext);  
-  const [selectedMenu,setSelectedMenu]=useState(null)
+  const [selectedMenu,setSelectedMenu]=useState(cats[0])
 
   const menuClick=(item)=>{
    

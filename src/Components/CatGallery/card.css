@@ -62,8 +62,8 @@ h3{
         min-height:320px;
         max-height:400px;
         width:100px;
-        margin-right: 30px; 
-        margin-bottom: 30px;
+        margin-right: 10px; 
+        margin-bottom: 10px;
                   
     }
     .card_info p{
@@ -83,7 +83,7 @@ h3{
     .card{
         min-height:340px;
         max-height:500px;
-        width:240px;
+        width:200px;
         margin-bottom: 50px;       
         
     }

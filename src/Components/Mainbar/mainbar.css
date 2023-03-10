@@ -50,9 +50,9 @@
 @media screen and (max-width: 480px) {
   
 .selected_card{
-    min-height:200px;
-    max-height:400px;
-    width:220px;  
+    min-height:180px;
+    max-height:360px;
+    width:200px;  
     
 }
 .selected_card_info{
@@ -60,7 +60,7 @@
     color:#414141;
 }
 .selected_card_image{
-    height:200px;
+    height:180px;
     width:100%;
     margin:5px 0px;
 }
